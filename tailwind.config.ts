@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Spice-inspired brand colors
+				saffron: 'hsl(var(--saffron))',
+				terracotta: 'hsl(var(--terracotta))',
+				golden: 'hsl(var(--golden))',
+				'warm-white': 'hsl(var(--warm-white))',
+				'spice-brown': 'hsl(var(--spice-brown))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
