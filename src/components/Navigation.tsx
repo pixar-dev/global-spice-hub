@@ -31,8 +31,9 @@ const Navigation = () => {
               <Link
                 key={item.href}
                 to={item.href}
+                aria-current={location.pathname === item.href ? 'page' : undefined}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
+                  "text-sm font-medium transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-md px-1",
                   location.pathname === item.href
                     ? "text-primary border-b-2 border-primary pb-1"
                     : "text-muted-foreground"
