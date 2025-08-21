@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/global-spice-hub">
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />

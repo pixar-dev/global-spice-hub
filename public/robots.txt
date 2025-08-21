@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.jjspices.com/sitemap.xml
+Sitemap: https://pixar-dev.github.io/global-spice-hub/sitemap.xml
