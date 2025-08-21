@@ -30,7 +30,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-spice-brown/90 to-spice-brown/80 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple to-electric-blue text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Our Story
@@ -79,7 +79,7 @@ const About = () => {
                   <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                     <CardContent className="p-8">
                       <div className="flex items-start space-x-4">
-                        <div className="w-12 h-12 bg-gradient-to-br from-saffron to-terracotta rounded-lg flex items-center justify-center shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-br from-purple to-electric-blue rounded-xl flex items-center justify-center shrink-0">
                           <value.icon className="w-6 h-6 text-white" />
                         </div>
                         <div>

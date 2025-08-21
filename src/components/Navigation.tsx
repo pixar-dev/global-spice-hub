@@ -13,11 +13,11 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="bg-card/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50">
+    <nav className="glass border-b border-border/20 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-saffron to-terracotta rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-electric-blue to-purple rounded-xl flex items-center justify-center shadow-glow">
               <span className="text-white font-bold text-lg">JJ</span>
             </div>
             <div>

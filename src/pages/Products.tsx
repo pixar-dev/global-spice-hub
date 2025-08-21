@@ -27,7 +27,7 @@ const Products = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-saffron to-terracotta text-white">
+      <section className="py-20 bg-gradient-to-r from-coral to-amber text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Our Premium Spices
@@ -54,7 +54,7 @@ const Products = () => {
             {products.map((product, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-border/50">
                 <CardContent className="p-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-golden to-saffron rounded-xl mb-4 mx-auto flex items-center justify-center">
+                  <div className="w-16 h-16 bg-gradient-to-br from-coral to-amber rounded-xl mb-4 mx-auto flex items-center justify-center">
                     <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
                   </div>
                   <h3 className="text-lg font-semibold text-foreground mb-3 text-center">{product.name}</h3>
@@ -78,7 +78,7 @@ const Products = () => {
                 {packageSizes.map((size, index) => (
                   <div
                     key={index}
-                    className="bg-gradient-to-r from-golden to-saffron text-spice-brown px-6 py-3 rounded-lg font-semibold shadow-md"
+                    className="bg-gradient-to-r from-coral to-amber text-white px-6 py-3 rounded-xl font-semibold shadow-md"
                   >
                     {size}
                   </div>

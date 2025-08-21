@@ -39,7 +39,7 @@ const GlobalPresence = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-terracotta to-spice-brown text-white">
+      <section className="py-20 bg-gradient-to-r from-emerald to-electric-blue text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Global Presence
@@ -90,7 +90,7 @@ const GlobalPresence = () => {
             {features.map((feature, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-saffron to-terracotta rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-emerald to-electric-blue rounded-xl flex items-center justify-center mx-auto mb-4">
                     <feature.icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-foreground mb-3">{feature.title}</h3>
@@ -120,7 +120,7 @@ const GlobalPresence = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start justify-between mb-4">
                     <h3 className="text-lg font-semibold text-foreground">{region.name}</h3>
-                    <span className="bg-gradient-to-r from-golden to-saffron text-spice-brown px-3 py-1 rounded-full text-xs font-medium">
+                    <span className="bg-gradient-to-r from-coral to-amber text-white px-3 py-1 rounded-full text-xs font-medium">
                       {region.growth}
                     </span>
                   </div>
@@ -133,9 +133,9 @@ const GlobalPresence = () => {
           </div>
 
           {/* Map Placeholder */}
-          <Card className="bg-gradient-to-br from-saffron/10 to-terracotta/10 border-saffron/20">
+          <Card className="bg-gradient-to-br from-emerald/10 to-electric-blue/10 border-emerald/20">
             <CardContent className="p-8 md:p-12 text-center">
-              <div className="w-24 h-24 bg-gradient-to-br from-saffron to-terracotta rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-24 h-24 bg-gradient-to-br from-emerald to-electric-blue rounded-full flex items-center justify-center mx-auto mb-6">
                 <Globe className="w-12 h-12 text-white" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">
@@ -151,7 +151,7 @@ const GlobalPresence = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-saffron to-terracotta text-white">
+      <section className="py-20 bg-gradient-to-r from-emerald to-electric-blue text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Expand Your Market with JJ Spices
@@ -161,7 +161,7 @@ const GlobalPresence = () => {
             Indian spices or explore new market opportunities, we're here to support your growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild variant="golden" size="lg">
+            <Button asChild variant="cool" size="lg">
               <Link to="/contact">Partner With Us</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">

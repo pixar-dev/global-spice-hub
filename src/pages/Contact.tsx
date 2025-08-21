@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-spice-brown to-terracotta text-white">
+      <section className="py-20 bg-gradient-to-r from-midnight to-electric-blue text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Get In Touch
@@ -65,7 +65,7 @@ const Contact = () => {
             {contactInfo.map((info, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-saffron to-terracotta rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-electric-blue to-purple rounded-xl flex items-center justify-center mx-auto mb-4">
                     <info.icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-foreground mb-4">{info.title}</h3>
@@ -105,7 +105,7 @@ const Contact = () => {
               </div>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div className="bg-gradient-to-br from-saffron/10 to-terracotta/10 rounded-lg p-6">
+                <div className="bg-gradient-to-br from-electric-blue/10 to-purple/10 rounded-xl p-6">
                   <h4 className="text-lg font-semibold mb-3 text-foreground">For Business Inquiries</h4>
                   <p className="text-muted-foreground mb-4">
                     Product catalogs, pricing, bulk orders, and partnership opportunities.
@@ -116,12 +116,12 @@ const Contact = () => {
                     </a>
                   </Button>
                 </div>
-                <div className="bg-gradient-to-br from-golden/10 to-saffron/10 rounded-lg p-6">
+                <div className="bg-gradient-to-br from-coral/10 to-amber/10 rounded-xl p-6">
                   <h4 className="text-lg font-semibold mb-3 text-foreground">For General Information</h4>
                   <p className="text-muted-foreground mb-4">
                     Company information, certifications, and general questions.
                   </p>
-                  <Button asChild variant="golden" className="w-full">
+                  <Button asChild variant="warm" className="w-full">
                     <a href="mailto:info@jjspices.com?subject=General Inquiry">
                       Email Info Team
                     </a>

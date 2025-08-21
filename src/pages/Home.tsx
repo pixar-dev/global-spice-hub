@@ -27,7 +27,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-spice-brown/80 to-spice-brown/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-midnight/80 to-midnight/60"></div>
         </div>
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
@@ -44,7 +44,7 @@ const Home = () => {
             <Button asChild variant="hero" size="lg">
               <Link to="/products">Explore Our Products</Link>
             </Button>
-            <Button asChild variant="golden" size="lg">
+            <Button asChild variant="warm" size="lg">
               <Link to="/about">Our Story</Link>
             </Button>
           </div>
@@ -57,7 +57,7 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-saffron to-terracotta rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-electric-blue to-purple rounded-full mb-4">
                   <stat.icon className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-2xl md:text-3xl font-bold text-primary mb-2">{stat.value}</div>
@@ -88,7 +88,7 @@ const Home = () => {
       </section>
 
       {/* Featured Products */}
-      <section className="py-20 bg-gradient-warm">
+      <section className="py-20 bg-gradient-surface">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
@@ -101,9 +101,9 @@ const Home = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {featuredProducts.map((product, index) => (
-              <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-border/50">
+              <Card key={index} className="card-modern group hover:-translate-y-2">
                 <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-golden to-saffron rounded-lg mb-4 mx-auto"></div>
+                  <div className="w-12 h-12 bg-gradient-to-br from-coral to-amber rounded-xl mb-4 mx-auto shadow-card"></div>
                   <h3 className="font-semibold text-foreground mb-2 text-center">{product.name}</h3>
                   <p className="text-sm text-muted-foreground text-center">{product.description}</p>
                 </CardContent>
@@ -120,7 +120,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-saffron to-terracotta text-white">
+      <section className="py-20 bg-gradient-to-r from-electric-blue to-purple text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Partner With Us?
@@ -128,7 +128,7 @@ const Home = () => {
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
             Join hundreds of satisfied clients worldwide who trust JJ Spices for their premium spice needs.
           </p>
-          <Button asChild variant="golden" size="lg">
+          <Button asChild variant="warm" size="lg">
             <Link to="/contact">Get In Touch</Link>
           </Button>
         </div>
